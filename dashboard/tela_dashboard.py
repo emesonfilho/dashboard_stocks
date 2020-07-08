@@ -7,6 +7,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from matplotlib.backends.backend_tkagg import NavigationToolbar2Tk, FigureCanvasTkAgg
 import matplotlib.backends as tkagg
+import seaborn as sn
 
 from matplotlib.figure import Figure
 
@@ -15,14 +16,24 @@ import numpy as np
 
 class Janela_Dashboard:
     def __init__(self, master = None):
+        root = Tk()
+        root['bg'] = 'gray'
+        root.title("Dashboard")
+
+
+
         self.master = master
-        self.bg_color = 'white'
+
+        self.bg_color = 'gray'
+        self.background_color = 'orange'
 
         self.pegando_dados_acoes = list()
         self.pegando_dados_indices = list()
 
         self.container1()
         self.containers2()
+
+        root.mainloop()
 
     def container1(self):
 
@@ -32,22 +43,22 @@ class Janela_Dashboard:
         self.primeiro_container.grid(row = 0, column = 0)
 
 
-        Label(self.primeiro_container, text="Código do papel").grid(row = 0, column = 0)
+        Label(self.primeiro_container, text="Paper code", background = self.background_color).grid(row = 0, column = 0)
 
 
-        Label(self.primeiro_container, text="Salvar").grid(row=3, column=0)
+        Label(self.primeiro_container, text="Save", background = self.background_color).grid(row=3, column=0)
 
-        Label(self.primeiro_container, text="País do papel").grid(row = 4, column = 0)
+        Label(self.primeiro_container, text="Country of paper", background = self.background_color).grid(row = 4, column = 0)
 
-        Label(self.primeiro_container, text="Data início").grid(row=5, column=0)
+        Label(self.primeiro_container, text="Start date", background = self.background_color).grid(row=5, column=0)
 
-        Label(self.primeiro_container, text="Data final").grid(row=6, column=0)
+        Label(self.primeiro_container, text="Final date", background = self.background_color).grid(row=6, column=0)
 
-        Label(self.primeiro_container, text="Preço de ref").grid(row=7, column=0)
+        Label(self.primeiro_container, text="Reference price", background = self.background_color).grid(row=7, column=0)
 
-        Label(self.primeiro_container, text="Plot").grid(row=8, column=0)
+        Label(self.primeiro_container, text="Plot", background = self.background_color).grid(row=8, column=0)
 
-        Label(self.primeiro_container, text="Clear").grid(row=9, column=0)
+        Label(self.primeiro_container, text="Clear", background = self.background_color).grid(row=9, column=0)
 
 
     def containers2(self):
@@ -60,7 +71,8 @@ class Janela_Dashboard:
         self.acoes_entrada = Entry(self.segundo_container)
         self.acoes_entrada.grid(row = 0, column = 0)
 
-        Button(self.segundo_container, text="Pegar", command=self.pegando_papeis).grid(row=1, column=0)
+        Button(self.segundo_container, text="Take", command=self.pegando_papeis,
+               background = self.background_color).grid(row=1, column=0)
 
         self.pais_entrada = Entry(self.segundo_container)
         self.pais_entrada.grid(row=4, column=0)
@@ -74,9 +86,11 @@ class Janela_Dashboard:
         self.preco_ref = Entry(self.segundo_container)
         self.preco_ref.grid(row=7, column=0)
 
-        Button(self.segundo_container, text = "Gerar",command = self.construindo_grafico).grid(row = 8, column = 0)
+        Button(self.segundo_container, text = "Generate",command = self.construindo_grafico,
+               background = self.background_color).grid(row = 8, column = 0)
 
-        Button(self.segundo_container, text="Clear", command=self.deletando_dados).grid(row=9, column=0)
+        Button(self.segundo_container, text="Clear", command=self.deletando_dados,
+               background = self.background_color).grid(row=9, column=0)
 
 
     def pegando_papeis(self):
@@ -101,7 +115,7 @@ class Janela_Dashboard:
         self.terceiro_container.grid(row=0, column=2)
 
         # Construindo o objeto figura
-
+        sn.set()
         grafico= Figure(figsize=(10, 6), dpi=100, edgecolor='red', facecolor='white')
 
         # Adicionando um gráfico a ele
@@ -109,7 +123,7 @@ class Janela_Dashboard:
 
 
         # Adicionando um título a ele
-        grafico_tela.set_title('Comprando ações')
+        grafico_tela.set_title('Comparing actions')
 
 
         if len(self.pegando_dados_acoes) != 1:
@@ -121,6 +135,7 @@ class Janela_Dashboard:
 
         # Adicionando os dados no gráfico
         grafico_tela.plot(dados.index, dados)
+
 
         # Adicionando a legenda
         grafico_tela.legend(self.pegando_dados_acoes, loc=0)
@@ -140,11 +155,7 @@ class Janela_Dashboard:
 
 
 
-
-
-root = Tk()
-Janela_Dashboard(root)
-root.mainloop()
+Janela_Dashboard()
 
 
 
