@@ -2,15 +2,15 @@
 
 ### Comparing prices
 
-![image](https://user-images.githubusercontent.com/48841448/86605299-e827e500-bf7c-11ea-8958-01bb3a4dd731.png)
+![image](https://user-images.githubusercontent.com/48841448/86982930-cbe49d80-c160-11ea-9551-ae3af26baee9.png)
 
-![image](https://user-images.githubusercontent.com/48841448/86605355-faa21e80-bf7c-11ea-886a-bc772a9b3f24.png)
+![image](https://user-images.githubusercontent.com/48841448/86982955-e585e500-c160-11ea-8e7a-74c708f05d96.png)
 
 ### Comparing volumes
 
-![image](https://user-images.githubusercontent.com/48841448/86606176-122dd700-bf7e-11ea-9d0e-f68ba6f2eb75.png)
+![image](https://user-images.githubusercontent.com/48841448/86983065-30076180-c161-11ea-8475-d956157a7bbf.png)
 
-![image](https://user-images.githubusercontent.com/48841448/86606453-689b1580-bf7e-11ea-99f2-05a91945a508.png)
+![image](https://user-images.githubusercontent.com/48841448/86982983-f9314b80-c160-11ea-9d4e-d5b04be788fe.png)
 
 # About this project:
 
