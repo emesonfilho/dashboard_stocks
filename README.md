@@ -8,9 +8,9 @@
 
 ### Comparing volumes
 
-![image](https://user-images.githubusercontent.com/48841448/86983065-30076180-c161-11ea-8475-d956157a7bbf.png)
+![image](https://user-images.githubusercontent.com/48841448/86983396-23cfd400-c162-11ea-907e-640147f746ba.png)
 
-![image](https://user-images.githubusercontent.com/48841448/86982983-f9314b80-c160-11ea-9d4e-d5b04be788fe.png)
+![image](https://user-images.githubusercontent.com/48841448/86983416-334f1d00-c162-11ea-8589-908d0cba6a59.png)
 
 # About this project:
 
