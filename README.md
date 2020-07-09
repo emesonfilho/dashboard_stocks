@@ -22,3 +22,9 @@ For you to add new assets just follow the steps:
 * input the requested data
 * Press generate
 * Okay, you put the first active one, to add more just repeat the first 2 steps, then click generate
+
+## Help Maintenance
+
+I've been maintaining quite many repos these days and burning out slowly. If you could help me cheer up, buying me a cup of coffee will make my life really happy and get much energy out of it.
+
+<a href="https://www.buymeacoffee.com/emesonfilho" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/purple_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
