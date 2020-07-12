@@ -38,6 +38,21 @@ The first version had the option of viewing the graphics, in this most current o
 
 In the future I intend to give the user more possibilities to interact with the information.
 
+# Observations
+
+The database in which he gets the accounting information (minus the beta) was blocking me due to the number of requests I made, so I downloaded the base in csv.
+
+If it’s in your interest to change that, just go:
+
+* In the dashboard folder
+
+* tela_dashboard.py
+
+* Line 235
+
+The lib I'm using to get the beta so far has not blocked, so I believe everything is fine with it.
+
+
 ## Help Maintenance
 
 I've been maintaining quite many repos these days and burning out slowly. If you could help me cheer up, buying me a cup of coffee will make my life really happy and get much energy out of it.
