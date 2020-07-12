@@ -12,6 +12,11 @@
 
 ![image](https://user-images.githubusercontent.com/48841448/86983416-334f1d00-c162-11ea-8589-908d0cba6a59.png)
 
+### A demonstration of how to use:
+
+![Gravar_2020_07_11_23_55_41_529](https://user-images.githubusercontent.com/48841448/87237944-c0001200-c3d2-11ea-9d91-1047ec14b213.gif)
+
+
 # About this project:
 
 The objective is to be able to plot the standardized graphs of the selected assets on the screen, thus being able to compare their profitability.
