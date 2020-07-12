@@ -2,15 +2,17 @@
 
 ### Comparing prices
 
-![image](https://user-images.githubusercontent.com/48841448/86982930-cbe49d80-c160-11ea-9551-ae3af26baee9.png)
+![image](https://user-images.githubusercontent.com/48841448/87237986-3d2b8700-c3d3-11ea-90e3-66be2d5bbff6.png)
 
-![image](https://user-images.githubusercontent.com/48841448/86982955-e585e500-c160-11ea-8e7a-74c708f05d96.png)
+![image](https://user-images.githubusercontent.com/48841448/87237999-546a7480-c3d3-11ea-984f-99f78f5f7d63.png)
+
+![image](https://user-images.githubusercontent.com/48841448/87238012-706e1600-c3d3-11ea-848e-167564e263f9.png)
 
 ### Comparing volumes
 
-![image](https://user-images.githubusercontent.com/48841448/86983396-23cfd400-c162-11ea-907e-640147f746ba.png)
+![image](https://user-images.githubusercontent.com/48841448/87238024-9693b600-c3d3-11ea-81bc-0578b982c4ce.png)
 
-![image](https://user-images.githubusercontent.com/48841448/86983416-334f1d00-c162-11ea-8589-908d0cba6a59.png)
+![image](https://user-images.githubusercontent.com/48841448/87238036-b32fee00-c3d3-11ea-8de2-e268f913a2a0.png)
 
 ### A demonstration of how to use:
 
