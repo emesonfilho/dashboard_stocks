@@ -40,7 +40,7 @@ In the future I intend to give the user more possibilities to interact with the 
 
 # Observations
 
-The database in which he gets the accounting information (minus the beta) was blocking me due to the number of requests I made, so I downloaded the base in csv.
+The database in which he gets the accounting information (minus the beta) was blocking me due to the number of requests I made, so I downloaded the base in csv. The base also has a certain amount of NAN values, but I'm already working on finding a better one.
 
 If it’s in your interest to change that, just go:
 
