@@ -32,6 +32,12 @@ For you to add new assets just follow the steps:
 * Press generate
 * Okay, you put the first active one, to add more just repeat the first 2 steps, then click generate
 
+# About future updates
+
+The first version had the option of viewing the graphics, in this most current one, in addition, it is possible to see some data of the companies.
+
+In the future I intend to give the user more possibilities to interact with the information.
+
 ## Help Maintenance
 
 I've been maintaining quite many repos these days and burning out slowly. If you could help me cheer up, buying me a cup of coffee will make my life really happy and get much energy out of it.
