@@ -1,4 +1,4 @@
-# dashboard
+# Dashboard
 
 ### Comparing prices
 
