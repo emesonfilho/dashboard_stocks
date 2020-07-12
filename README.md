@@ -6,6 +6,8 @@
 
 ![image](https://user-images.githubusercontent.com/48841448/87237999-546a7480-c3d3-11ea-984f-99f78f5f7d63.png)
 
+### Information of the analyzed companies
+
 ![image](https://user-images.githubusercontent.com/48841448/87238012-706e1600-c3d3-11ea-848e-167564e263f9.png)
 
 ### Comparing volumes
@@ -14,7 +16,7 @@
 
 ![image](https://user-images.githubusercontent.com/48841448/87238036-b32fee00-c3d3-11ea-8de2-e268f913a2a0.png)
 
-### A demonstration of how to use:
+### A demonstration of how to use
 
 ![Gravar_2020_07_11_23_55_41_529](https://user-images.githubusercontent.com/48841448/87237944-c0001200-c3d2-11ea-9d91-1047ec14b213.gif)
 
